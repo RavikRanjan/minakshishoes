@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style-type: none;
+}
+strike{
+    color: red;
+}
+
+.col-md-3:hover{
+    transform: scale(0.9);
+    transition: 0.4s linear;
+}
+@media screen and ( wax-width : 1200px) {
+    p{
+        margin: 20px;
+    }
+}

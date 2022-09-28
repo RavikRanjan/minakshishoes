@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: linear-gradient(to top left, rgb(141, 141, 247), pink, white); */
+    background: linear-gradient(to top left, rgb(216, 246, 216), rgb(250, 211, 231), rgb(142, 243, 131));
+}
+img{
+    padding: 10px;
+    height: 500px;
+    width: 600px;
+    margin: 50px 0px 0px 20px;
+}
+.register{
+    padding: 10px;
+}
+.register h3{
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+.btnsub{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 200px;
+
+}
+.register a{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+.register a:hover{
+    color: black;
+}
+@media screen and (max-width : 580px) {
+    img{
+        padding: 10px;
+        margin: 0px 0px 0px 0px;
+    }
+    
+}

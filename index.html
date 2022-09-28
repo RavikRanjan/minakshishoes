@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="image/mscicon.png">
+    <title>Minakshi Shoe centre</title>
+
+    <!-------ucss---------->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+    <!-------font----------->
+    <link rel="stylesheet" href="font-6.1.1/css/all.css" />
+
+    <!-------Icon---------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body onload="realtimeClock()">
+    <div class="topnav sticky-top" id="myTopnav">
+        <a href="#" class="active">MINAKSHI SHOE CENTERE</a>
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#service">Service</a>
+        <a href="#contect">Contact</a>
+        <a href="login.html" style="float: right;"><i class="bi bi-person"></i>Login</a>
+        <a href="cart" style="float: right;"><i class="bi bi-cart-fill"></i>Cart</a>
+        <a href="Login" style="float: right;"><i class="bi bi-suit-heart"></i></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="bi bi-list"></i>
+        </a>
+    </div>
+    <div class="container-fluid">
+        <div class="binerimg">
+            <img src="image/bineer1.jpg" class="img-fluid" alt="">
+        </div>
+    </div>
+    <div class="content">
+        <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam dignissimos eaque voluptatem a, molestiae quod
+            quasi. Cum nam quasi atque?</h5>
+        <a href="shop.html"><button>Buy Now</button></a>
+        <!-- <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus beatae, possimus consequuntur
+            voluptatem veniam ipsam sint consectetur repellat. Laborum facere beatae, dolores, dolore voluptatibus
+            tempore ipsum, minima incidunt sapiente blanditiis officia porro illum. Earum excepturi fuga ad laboriosam
+            assumenda et maxime veritatis libero necessitatibus consequatur, rerum numquam, vero nobis. Eligendi.</h6> -->
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="dclock">
+                <h2>Deals of The Days -<div id="clock">
+                </h2>
+            </div>
+
+            <div class="col-md-3 pt-4">
+                <div class="card">
+                    <a href="#"><img src="image/1.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Foed Racing M-9000</h5>
+                        <p class="card-text">MACHE-Eluminantor Mach E<br />
+                            Price :-<strike class="text-danger">&#8377 5990.00</strike> <sub>&#8377-3991</sub></p>
+                        <h5 style="color: green;">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-half"></span>
+                            <span><i class="bi bi-star"></i></span>
+                        </h5>
+                        <button type="button" name="Add_To_Cart" class="btn btn-info m-2">Add To Cart</button>
+                        <button type="button" class="btn btn-info">Add Wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 pt-4">
+                <div class="card">
+                    <a href="#"><img src="image/2.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Foed Racing M-9000</h5>
+                        <p class="card-text">MACHE-Eluminantor Mach E<br />Price :-<strike class="text-danger">&#8377 5990.00</strike> <sub>&#8377-3991</sub>
+                        <h5 style="color: green;">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star"></span>
+                            <span><i class="bi bi-star"></i></span>
+                        </h5>
+                        <button type="button" name="Add_To_Cart" class="btn btn-info m-2">Add To Cart</button>
+                        <button type="button" class="btn btn-info">Add Wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 pt-4">
+                <div class="card">
+                    <a href="#"><img src="image/3.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Foed Racing M-9000</h5>
+                        <p class="card-text">MACHE-Eluminantor Mach E<br />Price :-<strike class="text-danger">&#8377 5990.00</strike> <sub>&#8377-3991</sub>
+                        <h5 style="color: green;">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span><i class="bi bi-star"></i></span>
+                        </h5>
+                        <button type="button" name="Add_To_Cart" class="btn btn-info m-2">Add To Cart</button>
+                        <button type="button" class="btn btn-info">Add Wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 pt-4">
+                <div class="card">
+                    <a href="#"><img src="image/4.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Foed Racing M-9000</h5>
+                        <p class="card-text">MACHE-Eluminantor Mach E<br />Price :-<strike class="text-danger">&#8377 5990.00</strike> <sub>&#8377-3991</sub>
+                        <h5 style="color: green;">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-half"></span>
+                            <span><i class="bi bi-star"></i></span>
+                        </h5>
+                        <button type="button" name="Add_To_Cart" class="btn btn-info m-2">Add To Cart</button>
+                        <button type="button" class="btn btn-info">Add Wishlist</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="image/b4.jpg" style="height: 350px;" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="image/b6.jpg" style="height: 350px;" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="image/b5.jpg" style="height: 350px;" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 pt-4">
+                <div class="card">
+                    <a href="#"><img src="image/5.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Foed Racing M-9000</h5>
+                        <p class="card-text">MACHE-Eluminantor Mach E<br />Price :-<strike class="text-danger">&#8377 5990.00</strike> <sub>&#8377-3991</sub>
+                        <h5 style="color: green;">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-half"></span>
+                            <span><i class="bi bi-star"></i></span>
+                        </h5>
+                        <button type="button" name="Add_To_Cart" class="btn btn-info m-2">Add To Cart</button>
+                        <button type="button" class="btn btn-info">Add Wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 pt-4">
+                <div class="card">
+                    <a href="#"><img src="image/6.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Foed Racing M-9000</h5>
+                        <p class="card-text">MACHE-Eluminantor Mach E<br />Price :-<strike class="text-danger">&#8377 5990.00</strike> <sub>&#8377-3991</sub>
+                        <h5 style="color: green;">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-half"></span>
+                            <span><i class="bi bi-star"></i></span>
+                        </h5>
+                        <button type="button" name="Add_To_Cart" class="btn btn-info m-2">Add To Cart</button>
+                        <button type="button" class="btn btn-info">Add Wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 pt-4">
+                <div class="card">
+                    <a href="#"><img src="image/7.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Foed Racing M-9000</h5>
+                        <p class="card-text">MACHE-Eluminantor Mach E<br />Price :-<strike class="text-danger">&#8377 5990.00</strike> <sub>&#8377-3991</sub>
+                        <h5 style="color: green;">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-half"></span>
+                            <span><i class="bi bi-star"></i></span>
+                        </h5>
+                        <button type="button" name="Add_To_Cart" class="btn btn-info m-2">Add To Cart</button>
+                        <button type="button" class="btn btn-info">Add Wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 pt-4">
+                <div class="card">
+                    <a href="#"><img src="image/8.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Foed Racing M-9000</h5>
+                        <p class="card-text">MACHE-Eluminantor Mach E<br />Price :-<strike class="text-danger">&#8377 5990.00</strike> <sub>&#8377-3991</sub>
+                        <h5 style="color: green;">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-half"></span>
+                            <span><i class="bi bi-star"></i></span>
+                        </h5>
+                        <button type="button" name="Add_To_Cart" class="btn btn-info m-2">Add To Cart</button>
+                        <button type="button" class="btn btn-info">Add Wishlist</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 pt-4">
+                <div class="card">
+                    <a href="#"><img src="image/9.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Foed Racing M-9000</h5>
+                        <p class="card-text">MACHE-Eluminantor Mach E<br />Price :-<strike class="text-danger">&#8377 5990.00</strike> <sub>&#8377-3991</sub>
+                        <h5 style="color: green;">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-half"></span>
+                            <span><i class="bi bi-star"></i></span>
+                        </h5>
+                        <button type="button" name="Add_To_Cart" class="btn btn-info m-2">Add To Cart</button>
+                        <button type="button" class="btn btn-info">Add Wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 pt-4">
+                <div class="card">
+                    <a href="#"><img src="image/10.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Foed Racing M-9000</h5>
+                        <p class="card-text">MACHE-Eluminantor Mach E<br />Price :-<strike class="text-danger">&#8377 5990.00</strike> <sub>&#8377-3991</sub>
+                        <h5 style="color: green;">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star"></span>
+                            <span><i class="bi bi-star"></i></span>
+                        </h5>
+                        <button type="button" name="Add_To_Cart" class="btn btn-info m-2">Add To Cart</button>
+                        <button type="button" class="btn btn-info">Add Wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 pt-4">
+                <div class="card">
+                    <a href="#"><img src="image/11.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Foed Racing M-9000</h5>
+                        <p class="card-text">MACHE-Eluminantor Mach E<br />Price :-<strike class="text-danger">&#8377 5990.00</strike> <sub>&#8377-3991</sub>
+                        <h5 style="color: green;">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-half"></span>
+                            <span><i class="bi bi-star"></i></span>
+                        </h5>
+                        <button type="button" name="Add_To_Cart" class="btn btn-info m-2">Add To Cart</button>
+                        <button type="button" class="btn btn-info">Add Wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 pt-4">
+                <div class="card">
+                    <a href="#"><img src="image/12.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Foed Racing M-9000</h5>
+                        <p class="card-text">MACHE-Eluminantor Mach E<br />Price :-<strike class="text-danger">&#8377 5990.00</strike> <sub>&#8377-3991</sub>
+                        <h5 style="color: green;">
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span><i class="bi bi-star"></i></span>
+                        </h5>
+                        <button type="button" name="Add_To_Cart" class="btn btn-info m-2">Add To Cart</button>
+                        <button type="button" class="btn btn-info">Add Wishlist</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <section id="contect">
+        <div class="container">
+            <div class="row justify-content-evenly">
+                <h4 class="contect">Contect Us</h4>
+                <div class="col-md-5">
+                    <form action="#">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Enter your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Enter your phone number">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Enter email Address">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">City State</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Enter city, state">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"
+                                placeholder="Enter your message"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="address col-md-5">
+                    <h3>Address</h3>
+                    <p>Sonar patti Rode, Chousa Bajar, <br>
+                        Madhepura, Bihar <br>
+                        Pin- 852213 <br>
+                        <i class="bi bi-whatsapp"></i> :+91-8002552360
+                    </p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.2103535062706!2d87.03098351482721!3d25.531369124327203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f02f1181946b33%3A0x89cecff164d6b2f9!2sMinakshi%20Shoe%20Center!5e0!3m2!1sen!2sin!4v1663732880868!5m2!1sen!2sin"
+                        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section><br>
+    <!-- footer -->
+    <div class="footer container-fluid">
+        <div class="row">
+            <div class="footer1 col-md-4">
+                <h5>
+                    Minakshi shoe center
+                </h5>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus consequatur tenetur, a distinctio aspernatur deserunt vero expedita! Quidem, ullam odit fugit dicta modi doloremque enim nam quas perferendis eum vero aspernatur!
+                </p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, mollitia.</p>
+            </div>
+            <div class="service col-md-4">
+                <h4>About Our Service</h4>
+                <p>
+                    <a href="#">Home</a><br>
+                    <a href="#">About</a><br>
+                    <a href="#">Service</a><br>
+                    <a href="#">Contect</a><br>
+                    <a href="#">Shop Now</a><br>
+                    <a href="#">Gift Vocher</a><br>
+                    <a href="#">Return Policy</a><br>
+                    <a href="#">Refund Policy</a><br>
+                    <a href="#">Support</a><br>
+                    <a href="#">More...</a><br>
+                </p>
+            </div>
+            <div class="payment col-md-4">
+                <h5>Payment Method</h5>
+                <p>
+                    <a href="#"><img src="image/card-1.png" alt="card"></a>
+                    <a href="#"><img src="image/card-2.png" alt="card"></a>
+                    <a href="#"><img src="image/card-3.png" alt="card"></a>
+                    <a href="#"><img src="image/card-4.png" alt="card"></a>
+                    <a href="#"><img src="image/card-5.png" alt="card"></a>
+                    <a href="#"><img src="image/card-6.png" alt="card"></a>
+                </p>
+                <h5>Follow Us:</h5>
+                <h6>
+                    <a href="https://www.youtube.com/"><img src="image/youtube.png" alt="no image"></a>
+                    <a href="https://www.facebook.com"><img src="image/facebook.png" alt="no image"></a>
+                    <a href="https://www.messenger.com/"><img src="image/masseger.png" alt="no image"></a>
+                    <a href="https://www.instagram.com/"><img src="image/instagram.png" alt="no image"></a>
+                    <a href="https://twitter.com/"><img src="image/twitter.png" alt="no image"></a>
+                </h6>
+            </div>            
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="container-fluid" style="background-color: rgb(36, 36, 36);">
+        <div class="row justify-content-evenly text-white text-center pt-3" >
+            <p style="font-size: 16px;">Copyright<span>&copy</span>2022-23 Minakshi Shoe Center All Rights Reserved. By
+                Ravi Ranjan</p>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <script src="js/time.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
